@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="MyDarkToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="popupTheme">@style/PopupMenuStyle</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+    <style name="PopupMenuStyle" parent="android:Widget.Holo.Light.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item>
+    </style>
+</resources>
